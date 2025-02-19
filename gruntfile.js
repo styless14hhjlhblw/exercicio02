@@ -9,7 +9,7 @@ module.exports = function(grunt) {
             }
         }
     })
-    grunt.loadNpmTask('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
     grunt.registerTask('default', ['sass']);
 }
